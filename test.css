@@ -38,7 +38,6 @@ header,body{
     background-color: rgb(255, 186, 207);
 }
 
-
 .main{
     margin-left: 200px;
     width: 600px;
@@ -62,13 +61,11 @@ header,body{
     margin-right: 60px;
 }
 
-
 .footer{
     width: 800px;
     height: 30px;
     background-color: rgb(255, 216, 159);
 }
-
 
 .center-table td, .center-table th {
     padding: 1px;
