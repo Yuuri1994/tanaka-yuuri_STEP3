@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,body{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.header{
+    width: 800px;
+    height: 80px;
+    background-color: rgb(255, 185, 81);
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 0;
+    width: 800px;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.aside{
+    float: left;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(255, 186, 207);
+}
+
+
+.main{
+    margin-left: 200px;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(255, 253, 247);
+    padding: 10px;
+}
+
+.center-table{
+    margin: 50px auto 0 auto;
+}
+
+.aside ul {
+    list-style-type: disc;  /* 黒丸を表示 */
+    padding-left: 30px;     /* 左側の余白を戻す */
+    margin: 10px 0;
+}
+
+.submit-btn{
+    text-align: right;
+    margin-right: 60px;
+}
+
+
+.footer{
+    width: 800px;
+    height: 30px;
+    background-color: rgb(255, 216, 159);
+}
+
+
+.center-table td, .center-table th {
+    padding: 1px;
+}
